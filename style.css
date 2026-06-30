@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui;
+  background-color: #efefef;
+}
+header{
+    padding: 2rem 4rem;
+    border-bottom: 2px solid #29213f;
+}
+header ul {
+    list-style: none;
+}
+header a {
+    color: blue;
+    text-decoration: none;
+    font-style: normal;
+}
+header a:hover {
+    color: hotpink;
+}
+header img {
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(1);
+    margin: 1rem auto;
+}
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: orangered;
+}
+
+main{
+    margin: 2rem 4rem;
+}
+main section {
+    margin-bottom: 3rem;
+}
+p{
+    max-width: 80ch;
+}
+section li h3, section li p {
+    font-size: .8rem;
+    letter-spacing: 0.5px;
+}
+section li{
+    margin: .5rem;
+}
